@@ -22,30 +22,30 @@
               <div class="cart-item">
                 <div class="row">
                   <div class="col-md-7 center-item">
-                    <img src="assets/img/product-1.png" alt="" />
+                    <img src="assets/img/product-1.png" alt="iphone-11" />
                     <h5>iPhone 11 128GB Black</h5>
                   </div>
 
                   <div class="col-md-5 center-item">
                     <div class="input-group number-spinner">
-                      <button id="phone-decrement" class="btn btn-default">
+                      <button id="phone__decrement" class="btn btn-default">
                         <i class="fas fa-minus"></i>
                       </button>
                       <input
                         type="text"
-                        id="phone-count"
+                        id="phone__count"
                         class="form-control text-center"
                         value="1"
                         disabled
                       />
-                      <button id="phone-increment" class="btn btn-default">
+                      <button id="phone__increment" class="btn btn-default">
                         <i class="fas fa-plus"></i>
                       </button>
                     </div>
-                    <h5 id="phone-prize">$1219</h5>
+                    <h5 id="phone__prize">$1219</h5>
                     <img
                       src="assets/img/remove.png"
-                      alt=""
+                      alt="remove phone"
                       class="remove-item"
                     />
                   </div>
@@ -57,26 +57,26 @@
               <div class="cart-item">
                 <div class="row">
                   <div class="col-md-7 center-item mx-auto">
-                    <img src="assets/img/product-2.png" alt="" />
+                    <img src="assets/img/product-2.png" alt="iPhone case" />
                     <h5>iPhone 11 Silicone Case - Black</h5>
                   </div>
                   <div class="col-md-5 center-item">
                     <div class="input-group number-spinner">
-                      <button id="case-decrement" class="btn btn-default">
+                      <button id="case__decrement" class="btn btn-default">
                         <i class="fas fa-minus"></i>
                       </button>
                       <input
                         type="text"
-                        id="case-count"
+                        id="case__count"
                         class="form-control text-center"
                         value="1"
                         disabled
                       />
-                      <button id="case-increment" class="btn btn-default">
+                      <button id="case__increment" class="btn btn-default">
                         <i class="fas fa-plus"></i>
                       </button>
                     </div>
-                    <h5 id="case-prize">$59</h5>
+                    <h5 id="case__prize">$59</h5>
                     <img
                       src="assets/img/remove.png"
                       alt=""
@@ -84,6 +84,7 @@
                     />
                   </div>
                 </div>
+                <p id="case__error"></p>
               </div>
               <!-- case section start -->
 
@@ -98,7 +99,7 @@
 
                   <div class="col-md-4 status">
                     <h5>$ <span id="total__subtotal">1,278</span></h5>
-                    <h5>$ <span id="tax">0</span></h5>
+                    <h5>$ <span id="total__tax">0</span></h5>
                     <h5>$ <span id="total__cost">1278</span></h5>
                   </div>
                 </div>
@@ -106,7 +107,11 @@
               <!-- grand total section start -->
 
               <div class="col-md-12 pt-4 pb-4">
-                <button type="button" class="btn btn-success check-out">
+                <button
+                  id="check__out__button"
+                  type="button"
+                  class="btn btn-success check-out"
+                >
                   Check Out
                 </button>
               </div>
